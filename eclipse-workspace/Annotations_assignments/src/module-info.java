@@ -1,0 +1,2 @@
+module Annotations_assignments {
+}
