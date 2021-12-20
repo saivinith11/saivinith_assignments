@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Html&Css"
+		},
+		{
+			"path": "..\\..\\HTML ASSIGNMENT1"
+		},
+		{
+			"path": "..\\..\\HTML&CSS ASSIGMENT2"
+		},
+		{
+			"path": "..\\..\\HTML&CSS ASSIGNMENT3"
+		},
+		{
+			"path": "..\\..\\javascriptAssignment"
+		},
+		{
+			"path": "..\\..\\JavascriptAssignment2"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavascriptAssignment3"
+	}
+}
