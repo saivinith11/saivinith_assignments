@@ -1,0 +1,19 @@
+header{
+     text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    background-color: #eee;
+    margin: 0 auto;
+}
+body{
+    margin-top: 33px;
+}
+.ul{
+    text-align: centre;
+    list-style-type:none;
+}
+

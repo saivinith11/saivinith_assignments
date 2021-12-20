@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <section>
+        <div class="outside">
+            <div>
+            <form class="ss">
+                <h1>Tell us something positive happended to you today</h1>
+             <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <br><br>
+            <label for="num">On a scale of 1-10, how good was it? required</label>
+            <input type="text" id="num" name="On a scale of 1-10, how good was it?">
+            <br><br>
+            </div>
+        <div class="option">
+            <label for="question">Where did it happen?</label>
+            <select name="question" id="question">
+                <option value="q1">At work</option>
+                <option value="q2">At Home</option>
+                <option value="q3">on street</option>
+                <option value="q4">At work</option>
+                <option value="q5">on my commute</option>
+            </select>
+            <br><br>
+         </div>   
+         <div class="radio">
+            <p>where did it happened?</p>
+            <input type="radio" name="age" value="Morning" id="option-1">
+            <label for="option-1">Morning</label>
+            <input type="radio" name="age" value="Morning" id="option-2">
+            <label for="option-2">Afternoon</label>
+            <input type="radio" name="age" value="Morning" id="option-3">
+            <label for="option-3">evening</label>
+            <br><br>
+         </div>
+        <div class="check">
+            <p>what emotions did u experience?</p>
+            <input type="checkbox" name="age" value="Morning" id="option-1">
+            <label for="option-1">Excited</label>
+            <input type="checkbox" name="age" value="Morning" id="option-2">
+            <label for="option-2">Loved</label>
+            <input type="checkbox" name="age" value="Morning" id="option-3">
+            <label for="option-3">Elated</label>
+            <input type="checkbox" name="age" value="Morning" id="option-3">
+            <label for="option-3">Humbled</label>
+            <br><br>
+            <label for="exp">please describe your positive experience:</label><br>
+            <textarea name="bio" id="exp" cols="30" rows="10" placeholder="enter your experience here"></textarea>
+        </div>
+            </form>
+            <input type="submit" value="submit">
+        </div>
+       
+    </section>
+    </body>
+</html>
