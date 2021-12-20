@@ -1,0 +1,11 @@
+.a6 th {
+    background-color: darkgreen;
+    color:white;
+}
+.a6 tr ,
+
+.a6 td,
+.a6 table{
+    border-style: solid;
+    border-color: darkgreen;
+}
